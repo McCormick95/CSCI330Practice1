@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Tv
 {
-    public class Show
+    public class Show : IComparable<Show>
     {
         public string Name {get; set;}
         public int Year {get; set;}
@@ -20,6 +20,10 @@ namespace Tv
             string names = sb.Remove(sb.Length-2,2).ToString();
 
             return $"{Name}({Year}) - {NumEpisodes} episodes, {names}";
+        }
+
+        public int CompareTo(Show otherShow){
+            return this.Name.CompareTo(otherShow.Name);
         }
 
     }
