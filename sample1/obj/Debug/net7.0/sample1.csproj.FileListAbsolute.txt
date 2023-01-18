@@ -1,0 +1,15 @@
+/workspaces/CSCI330Practice1/sample1/bin/Debug/net7.0/sample1
+/workspaces/CSCI330Practice1/sample1/bin/Debug/net7.0/sample1.deps.json
+/workspaces/CSCI330Practice1/sample1/bin/Debug/net7.0/sample1.runtimeconfig.json
+/workspaces/CSCI330Practice1/sample1/bin/Debug/net7.0/sample1.dll
+/workspaces/CSCI330Practice1/sample1/bin/Debug/net7.0/sample1.pdb
+/workspaces/CSCI330Practice1/sample1/obj/Debug/net7.0/sample1.csproj.AssemblyReference.cache
+/workspaces/CSCI330Practice1/sample1/obj/Debug/net7.0/sample1.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/CSCI330Practice1/sample1/obj/Debug/net7.0/sample1.AssemblyInfoInputs.cache
+/workspaces/CSCI330Practice1/sample1/obj/Debug/net7.0/sample1.AssemblyInfo.cs
+/workspaces/CSCI330Practice1/sample1/obj/Debug/net7.0/sample1.csproj.CoreCompileInputs.cache
+/workspaces/CSCI330Practice1/sample1/obj/Debug/net7.0/sample1.dll
+/workspaces/CSCI330Practice1/sample1/obj/Debug/net7.0/refint/sample1.dll
+/workspaces/CSCI330Practice1/sample1/obj/Debug/net7.0/sample1.pdb
+/workspaces/CSCI330Practice1/sample1/obj/Debug/net7.0/sample1.genruntimeconfig.cache
+/workspaces/CSCI330Practice1/sample1/obj/Debug/net7.0/ref/sample1.dll
