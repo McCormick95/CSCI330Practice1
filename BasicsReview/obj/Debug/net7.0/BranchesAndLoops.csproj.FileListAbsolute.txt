@@ -1,0 +1,15 @@
+/workspaces/CSCI330Practice1/BasicsReview/bin/Debug/net7.0/BranchesAndLoops
+/workspaces/CSCI330Practice1/BasicsReview/bin/Debug/net7.0/BranchesAndLoops.deps.json
+/workspaces/CSCI330Practice1/BasicsReview/bin/Debug/net7.0/BranchesAndLoops.runtimeconfig.json
+/workspaces/CSCI330Practice1/BasicsReview/bin/Debug/net7.0/BranchesAndLoops.dll
+/workspaces/CSCI330Practice1/BasicsReview/bin/Debug/net7.0/BranchesAndLoops.pdb
+/workspaces/CSCI330Practice1/BasicsReview/obj/Debug/net7.0/BranchesAndLoops.csproj.AssemblyReference.cache
+/workspaces/CSCI330Practice1/BasicsReview/obj/Debug/net7.0/BranchesAndLoops.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/CSCI330Practice1/BasicsReview/obj/Debug/net7.0/BranchesAndLoops.AssemblyInfoInputs.cache
+/workspaces/CSCI330Practice1/BasicsReview/obj/Debug/net7.0/BranchesAndLoops.AssemblyInfo.cs
+/workspaces/CSCI330Practice1/BasicsReview/obj/Debug/net7.0/BranchesAndLoops.csproj.CoreCompileInputs.cache
+/workspaces/CSCI330Practice1/BasicsReview/obj/Debug/net7.0/BranchesAndLoops.dll
+/workspaces/CSCI330Practice1/BasicsReview/obj/Debug/net7.0/refint/BranchesAndLoops.dll
+/workspaces/CSCI330Practice1/BasicsReview/obj/Debug/net7.0/BranchesAndLoops.pdb
+/workspaces/CSCI330Practice1/BasicsReview/obj/Debug/net7.0/BranchesAndLoops.genruntimeconfig.cache
+/workspaces/CSCI330Practice1/BasicsReview/obj/Debug/net7.0/ref/BranchesAndLoops.dll

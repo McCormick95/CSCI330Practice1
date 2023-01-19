@@ -69,9 +69,4 @@ namespace Tv
         }
     }
 
-    //public class YearComparer : IComparer<Year> {
-       // public int Compare(Year x, Year y){
-       //     return x.NumEpisodes-y.NumEpisodes;
-       // }
-    //}
 }
