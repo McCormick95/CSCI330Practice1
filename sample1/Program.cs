@@ -58,10 +58,7 @@ namespace Tv
 
             foreach (Show s in shows){
                 Console.WriteLine(s);
-            }
-
-
-            
+            } 
             
         }
     }
