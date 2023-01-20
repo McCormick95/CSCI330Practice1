@@ -1,4 +1,6 @@
-﻿//ExploreIf();
+﻿using Classes;
+
+//ExploreIf();
 
 void ExploreIf(){
     int a = 5;
@@ -131,19 +133,54 @@ void WorkWithStrings(){
     }
 }
 
+//WorkWithLists();
+
+void WorkWithLists(){
+
+    Console.WriteLine("-----------------------------------------------");
+
+    var fibonacciNumbers = new List<int> {1,1};
+
+    while(fibonacciNumbers.Count < 20){
+        var previous = fibonacciNumbers[fibonacciNumbers.Count - 1];
+        var previous2 = fibonacciNumbers[fibonacciNumbers.Count - 2];
+
+        fibonacciNumbers.Add(previous + previous2);
+    }
+
+    foreach(var item in fibonacciNumbers){
+            Console.WriteLine(item);
+    }
+}
+
 Console.WriteLine("-----------------------------------------------");
 
-var fibonacciNumbers = new List<int> {1,1};
+var account = new BankAccount("Ryan", 1000);
+Console.WriteLine($"Account {account.Number} was created for {account.Owner} with the initial account balance of: ${account.Balance}");
 
-while(fibonacciNumbers.Count < 20){
-    var previous = fibonacciNumbers[fibonacciNumbers.Count - 1];
-    var previous2 = fibonacciNumbers[fibonacciNumbers.Count - 2];
+account.MakeWithdrawal(500, DateTime.Now, "rent payment");
+Console.WriteLine(account.Balance);
+account.MakeDeposit(100, DateTime.Now, "friend paid me back");
+Console.WriteLine(account.Balance);
 
-    fibonacciNumbers.Add(previous + previous2);
+Console.WriteLine(account.GetAccountHistory());
+
+//test for a negative balance
+try{
+    account.MakeWithdrawal(750, DateTime.Now, "attempt to overdraw");
+}
+catch(InvalidOperationException e){
+    Console.WriteLine("Exception caught trying to overdraw");
+    Console.WriteLine(e.ToString());
 }
 
-foreach(var item in fibonacciNumbers){
-        Console.WriteLine(item);
+//test that the initial balances must be positive
+BankAccount invalivdAccount;
+try{
+    invalivdAccount = new BankAccount("invalid", -55);
 }
-
-
+catch(ArgumentOutOfRangeException e){
+    Console.WriteLine("Exception caught account with negative balance");
+    Console.WriteLine(e.ToString());
+    return;
+}
